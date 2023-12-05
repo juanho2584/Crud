@@ -15,7 +15,7 @@ import os
 import environ
 
 env = environ.Env()
-#reading .env file
+# reading .env file
 environ.Env.read_env()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
